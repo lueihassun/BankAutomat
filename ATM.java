@@ -17,7 +17,7 @@ public class ATM {
 
     public static void CheckeGuthaben() { 
         // Anweisung für Nutzer.
-        System.out.println("\n-> Dein auktuelles Guthaben beträgt " + df.format(guthaben) + " Euro.\n" + "\nWie viel Geld willst du abheben?\n");
+        System.out.println("\n-> Dein aktuelles Guthaben beträgt " + df.format(guthaben) + " Euro.\n" + "\nWie viel Geld willst du abheben?\n");
         // Nutzereingabe auslesen.
         abbuchung = sc.nextDouble();
         // Wenn das Guthaben nach dem Abbuchen negativ ist, dann nichts abheben, sonst abheben und neuen Kontostand anzeigen.
